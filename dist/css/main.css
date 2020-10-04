@@ -1,0 +1,284 @@
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.middle-container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn-dark, .btn-light, .btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main {
+  color: #333;
+  background-color: #99afef;
+}
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+}
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333;
+}
+
+button[class^=btn-]:hover,
+a[class^=btn-]:hover,
+input[class^=btn-]:hover {
+  background-color: #99afef;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+#main-nav ul {
+  display: flex;
+}
+#main-nav li {
+  padding: 1rem 1.5rem;
+}
+#main-nav a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+  font-size: large;
+}
+#main-nav a:hover {
+  border-color: #ccc;
+}
+#main-nav a.current {
+  border-color: #99afef;
+}
+
+#header {
+  height: 10vh;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.large-name {
+  font-size: 500%;
+}
+
+.selfie {
+  width: 125%;
+  margin-left: 10%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.picture-container {
+  width: 30%;
+}
+
+.small-bio {
+  width: 50%;
+  font-size: 28px;
+  line-height: 1.4;
+  padding-left: 15%;
+}
+
+#container-color {
+  background-color: #99afef;
+}
+
+#recent-blogs-container {
+  margin-top: 12%;
+}
+
+#recent-blogs {
+  width: 30%;
+  margin-left: 5%;
+}
+#recent-blogs li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#recent-blogs a {
+  font-size: large;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+#recent-blogs a:hover {
+  border-color: #ccc;
+}
+#recent-blogs a.current {
+  border-color: #99afef;
+}
+
+.main-footer {
+  margin: 10rem 0rem 10rem 0;
+  display: block;
+  margin-left: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.main-footer a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+  font-size: large;
+}
+.main-footer a:hover {
+  border-color: #ccc;
+}
+.main-footer a.current {
+  border-color: #99afef;
+}
+.main-footer ul {
+  list-style: none;
+}
+.main-footer li {
+  margin: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: auto auto;
+}
+
+.row-gap-8 {
+  row-gap: 2rem;
+}
+
+.type-2 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  #header {
+    height: 2rem;
+  }
+
+  #main-nav {
+    padding-top: 0.5rem;
+  }
+  #main-nav li {
+    padding: 0.5rem 1.5rem;
+  }
+  #main-nav a {
+    font-size: small;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .large-name {
+    font-size: 300%;
+  }
+
+  .picture-container {
+    width: 70%;
+  }
+
+  .small-bio {
+    width: 100%;
+    font-size: 28px;
+    line-height: 1.4;
+    padding-left: 0%;
+    margin-top: 5rem;
+    margin-left: 5%;
+  }
+
+  #recent-blogs {
+    width: 100%;
+  }
+  #recent-blogs ul {
+    margin-left: 1rem;
+  }
+
+  .main-footer {
+    margin: 2rem 5rem 0rem 0rem;
+  }
+}

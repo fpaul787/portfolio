@@ -1,97 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=320, initial-scale=0.29" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/323386b184.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frantz Paul | Computer Science Person</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=320, initial-scale=0.29"><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/main.css" />
-  <script src="https://kit.fontawesome.com/323386b184.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
-  <title>Frantz Paul | Computer Science Person</title>
-</head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <nav id="main-nav">
+          <!-- <img src="img/logo.png" alt="My Portfolio" id="logo" /> -->
+          <a href="index.html">
+            <h1 id="heading"></h1>
+          </a>
+          <ul>
+            <li><a href="about.html">Bi</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <!-- Header -->
-  <header id="header">
-    <div class="container">
-      <nav id="main-nav">
-        <!-- <img src="img/logo.png" alt="My Portfolio" id="logo" /> -->
-        <a href="index.html">
-          <h1 id="heading"></h1>
-        </a>
+    <div class="middle-container" id="container-color">
+      <!-- Section A: Picture, Small Bio-->
+      <h1 class="large-name">Frantz Paul</h1>
+
+      <section class="flex flex-row items-end" id="section-a">
+        <div class="picture-container">
+          <img src="img/selfie.jpg" alt="" class="selfie" />
+        </div>
+
+        <div class="small-bio">
+          <p>
+            I'm a graduate computer science student at Florida International
+            University.
+          </p>
+        </div>
+      </section>
+
+      <!-- <a href="projects.html" class="btn-light">My Projects</a> -->
+
+      <!-- Recent Blogs Section -->
+      <section id="recent-blogs-container" class="">
+        <div id="recent-blogs">
+          <h2>Recent Blog Posts</h2>
+
+          <ul>
+            <li>
+              <a href="#" class="blog-links"
+                >Deploying Django on Linode Server</a
+              >
+            </li>
+            <li>
+              <a href="#" class="blog-links"
+                >Deploying Django on Linode Server</a
+              >
+            </li>
+            <li>
+              <a href="#" class="blog-links"
+                >Deploying Django on Linode Server</a
+              >
+            </li>
+            <li>
+              <a href="#" class="blog-links"
+                >Deploying Django on Linode Server</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <nav class="grid grid-cols-3 row-gap-8 type-2" id="footer">
         <ul>
-          <li><a href="about.html">Bio</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
-
-  <div class="middle-container" id="container-color">
-
-    <!-- Section A: Picture, Small Bio-->
-    <h1 class="large-name">Frantz Paul</h1>
-
-    <section class="flex flex-row items-end" id="section-a">
-
-
-      <div class="picture-container">
-        <img src="img/selfie.jpg" alt="" class="selfie" />
-      </div>
-
-      <div class="small-bio">
-        <p>
-          I'm a graduate computer science student at Florida International
-          University.
-        </p>
-      </div>
-
-    </section>
-
-    <!-- <a href="projects.html" class="btn-light">My Projects</a> -->
-
-
-    <!-- Recent Blogs Section -->
-    <section id="recent-blogs-container" class="">
-
-      <div id="recent-blogs">
-      <h2>Recent Blog Posts</h2>
-
-        <ul>
-          <li>
-            <a href="#" class="blog-links">Deploying Django on Linode Server</a>
-          </li>
-          <li>
-            <a href="#" class="blog-links">Deploying Django on Linode Server</a>
-          </li>
-          <li>
-            <a href="#" class="blog-links">Deploying Django on Linode Server</a>
-          </li>
-          <li>
-            <a href="#" class="blog-links">Deploying Django on Linode Server</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-
-
-  <!-- Footer -->
-  <footer class="main-footer">
-    <nav class="grid grid-cols-3 row-gap-8 type-2" id="footer">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

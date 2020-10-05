@@ -164,6 +164,7 @@ img {
 #recent-blogs {
   width: 30%;
   margin-left: 5%;
+  margin-bottom: 10%;
 }
 #recent-blogs li {
   padding-top: 0.5rem;
@@ -183,11 +184,13 @@ img {
 }
 
 .main-footer {
-  margin: 10rem 0rem 10rem 0;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
   display: block;
-  margin-left: 10rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: center;
 }
 .main-footer a {
   text-decoration: none;
@@ -213,14 +216,11 @@ img {
 
 .grid {
   display: grid;
+  grid-gap: 50px;
 }
 
 .grid-cols-3 {
-  grid-template-columns: auto auto;
-}
-
-.row-gap-8 {
-  row-gap: 2rem;
+  grid-template-columns: 200px 200px;
 }
 
 .type-2 {

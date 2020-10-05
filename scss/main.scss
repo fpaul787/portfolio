@@ -129,6 +129,7 @@ img {
 #recent-blogs {
   width: 30%;
   margin-left: 5%;
+  margin-bottom: 10%;
 
   li {
     padding-top: .5rem;
@@ -154,11 +155,14 @@ img {
 
 // footer
 .main-footer {
-  margin: 10rem 0rem 10rem 0;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
   display: block;
-  margin-left: 10rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: center;
+
 
   a {
     text-decoration: none;
@@ -191,16 +195,13 @@ img {
 
 .grid {
   display: grid;
+  grid-gap: 50px;
 }
 
 .grid-cols-3 {
-  grid-template-columns: auto auto;
+  grid-template-columns: 200px 200px;
 }
 
-.row-gap-8 {
-  row-gap: 2rem;
-
-}
 
 .type-2 {
   font-size: 18px;

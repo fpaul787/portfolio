@@ -228,6 +228,16 @@ img {
   line-height: 1.5;
 }
 
+.bio-text {
+  font-size: 25px;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.link {
+  border-bottom: 5px solid seashell;
+}
+
 @media (max-width: 800px) {
   #header {
     height: 2rem;

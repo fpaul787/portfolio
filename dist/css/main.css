@@ -227,11 +227,12 @@ img {
 
 .grid {
   display: grid;
-  grid-gap: 50px;
 }
 
-.grid-cols-3 {
-  grid-template-columns: 200px 200px;
+.grid-cols-2 {
+  height: 200px;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
 }
 
 .type-2 {
@@ -306,5 +307,10 @@ img {
 
   .main-footer {
     margin: 2rem 5rem 0rem 0rem;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 200%;
   }
 }

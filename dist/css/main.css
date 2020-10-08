@@ -120,6 +120,17 @@ img {
   padding-bottom: 2%;
 }
 
+#header-blog {
+  height: 30vh;
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: #99afef;
+}
+
+.title {
+  font-size: 500%;
+}
+
 .large-name {
   font-size: 500%;
 }

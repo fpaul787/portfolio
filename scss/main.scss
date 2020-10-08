@@ -84,6 +84,18 @@ img {
   padding-bottom: 2%;
 }
 
+// Header
+#header-blog {
+  height: 30vh;
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: $site-color;
+}
+
+.title {
+  font-size: 500%;
+}
+
 .large-name {
   font-size: 500%;
 }

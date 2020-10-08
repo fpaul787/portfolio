@@ -7,15 +7,16 @@
     #main-nav {
         padding-top: .5rem;
 
-        li{
+        li {
             padding: .5rem .5rem;
         }
+
         a {
             font-size: small;
         }
     }
 
-    #heading{
+    #heading {
         font-size: 14.4px;
         padding-top: .5rem;
     }
@@ -52,7 +53,7 @@
     #recent-blogs {
         width: 100%;
 
-        ul{
+        ul {
             margin-left: 1rem;
         }
     }
@@ -63,4 +64,8 @@
 }
 
 // Smartphones
-@media(max-width: 500px) {}
+@media(max-width: 500px) {
+    .title {
+        font-size: 200%;
+    }
+}

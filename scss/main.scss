@@ -26,7 +26,7 @@ ul {
   list-style: none;
 }
 
-h2,
+
 h3,
 h4 {
   text-transform: uppercase;
@@ -84,13 +84,6 @@ img {
   padding-bottom: 2%;
 }
 
-// Header
-#header-blog {
-  height: 30vh;
-  text-align: center;
-  padding-bottom: 2%;
-  background-color: $site-color;
-}
 
 .title {
   font-size: 500%;
@@ -201,24 +194,8 @@ img {
   li {
     margin: 1rem;
   }
-
-
 }
 
-.grid {
-  display: grid;
-}
-
-.grid-cols-2 {
-  height: 200px;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 20px;
-}
-
-.type-2 {
-  font-size: 18px;
-  line-height: 1.5;
-}
 
 .bio-text {
   font-size: 25px;
@@ -228,6 +205,57 @@ img {
 
 .link {
   border-bottom: 5px solid seashell;
+}
+
+// Blog Page
+
+// Header Blog
+#header-blog {
+  height: 10%;
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: $site-color;
+  margin-bottom: 5rem;
+}
+
+
+.test {
+  background-color: blue;
+
+}
+
+// don't know what this means, copied from
+// a website
+.post {
+  grid-column: span 10/span 10;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: .75rem;
+}
+
+.time-col-span {
+  grid-column: span 2/span 2;
+}
+
+
+.tag {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  transition: all 0.5s;
+  border-radius: 9999px;
+  cursor: pointer;
+  color: #333;
+  background-color: $site-color;
+}
+
+.tag:hover {
+  background-color: $light-color;
 }
 
 // Import media queries

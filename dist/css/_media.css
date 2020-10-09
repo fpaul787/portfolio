@@ -56,6 +56,10 @@
   .main-footer {
     margin: 2rem 5rem 0rem 0rem;
   }
+
+  .time-col-span {
+    grid-column: span 12/span 12;
+  }
 }
 @media (max-width: 500px) {
   .title {

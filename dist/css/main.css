@@ -372,22 +372,36 @@ img {
   width: 100%;
 }
 .img__single .img__tags {
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-size: 16px;
-  padding: 16px 32px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: absolute;
-  top: 40%;
+  top: 10%;
   left: 35%;
   visibility: none;
   opacity: 0;
-  /* transition effect. not necessary */
-  transition: opacity 0.2s, visibility 0.2s;
+  transition: 0.2s ease;
+}
+.img__single .btn-main {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
 }
 .img__single:hover img {
+  transition: 0.5s ease;
   opacity: 0;
 }
 .img__single:hover .img__tags {
+  transition: 0.5s ease;
+  opacity: 1;
+}
+.img__single:hover .btn-main {
+  transition: 0.5s ease;
   opacity: 1;
 }
 

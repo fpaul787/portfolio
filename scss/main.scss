@@ -258,5 +258,26 @@ img {
   background-color: $light-color;
 }
 
+// projects.html
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img {
+  width: 400px;
+  padding: 0 20px 20px;
+
+  img:hover {
+    opacity: .1;
+    transition: .5s;
+  }
+}
+
+
+
 // Import media queries
 @import 'media';

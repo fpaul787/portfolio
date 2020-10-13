@@ -89,6 +89,18 @@ input[class^=btn-]:hover {
   line-height: 1.4;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .px-6 {
   padding-left: 2rem;
   padding-right: 2rem;

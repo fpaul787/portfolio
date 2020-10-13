@@ -17,10 +17,19 @@
     font-size: 14.4px;
     padding-top: 0.5rem;
   }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 200%;
+  }
 
   .middle-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .large-name {
+    font-size: 300%;
   }
 
   #section-a {
@@ -29,20 +38,15 @@
     align-items: flex-start;
   }
 
-  .large-name {
-    font-size: 300%;
-  }
-
   .picture-container {
-    width: 70%;
+    width: 50%;
   }
 
   .small-bio {
-    width: 100%;
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.2;
     padding-left: 0%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 5%;
   }
 
@@ -59,10 +63,5 @@
 
   .time-col-span {
     grid-column: span 12/span 12;
-  }
-}
-@media (max-width: 500px) {
-  .title {
-    font-size: 200%;
   }
 }

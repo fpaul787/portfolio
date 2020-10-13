@@ -89,6 +89,18 @@ input[class^=btn-]:hover {
   line-height: 1.4;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .px-6 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -223,20 +235,15 @@ img {
   height: 100%;
 }
 
-.flex {
-  display: flex;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
 .picture-container {
   width: 30%;
+}
+
+#section-a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
 }
 
 .small-bio {
@@ -315,10 +322,6 @@ img {
 
 .link {
   border-bottom: 5px solid seashell;
-}
-
-.test {
-  background-color: blue;
 }
 
 .post {
@@ -424,10 +427,19 @@ img {
     font-size: 14.4px;
     padding-top: 0.5rem;
   }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 200%;
+  }
 
   .middle-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .large-name {
+    font-size: 300%;
   }
 
   #section-a {
@@ -436,20 +448,15 @@ img {
     align-items: flex-start;
   }
 
-  .large-name {
-    font-size: 300%;
-  }
-
   .picture-container {
-    width: 70%;
+    width: 50%;
   }
 
   .small-bio {
-    width: 100%;
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.2;
     padding-left: 0%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 5%;
   }
 
@@ -466,10 +473,5 @@ img {
 
   .time-col-span {
     grid-column: span 12/span 12;
-  }
-}
-@media (max-width: 500px) {
-  .title {
-    font-size: 200%;
   }
 }

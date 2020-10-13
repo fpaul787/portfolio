@@ -195,10 +195,18 @@ img {
   border-color: #99afef;
 }
 
-#header {
+#header-index {
   height: 10vh;
   text-align: center;
   padding-bottom: 2%;
+}
+
+#header {
+  height: 10%;
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: #99afef;
+  margin-bottom: 3rem;
 }
 
 .title {
@@ -309,14 +317,6 @@ img {
   border-bottom: 5px solid seashell;
 }
 
-#header-blog {
-  height: 10%;
-  text-align: center;
-  padding-bottom: 1rem;
-  background-color: #99afef;
-  margin-bottom: 5rem;
-}
-
 .test {
   background-color: blue;
 }
@@ -406,7 +406,7 @@ img {
 }
 
 @media (max-width: 800px) {
-  #header {
+  #header-index {
     height: 2rem;
   }
 

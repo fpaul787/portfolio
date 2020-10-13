@@ -3,11 +3,15 @@
 // Tablets & Smaller
 @media(max-width: 800px) {
     #header-index {
-        height: 2rem;
+        height: 3rem;
     }
 
     #main-nav {
         padding-top: .5rem;
+
+        ul {
+            display: flex;
+        }
 
         li {
             padding: .5rem .5rem;

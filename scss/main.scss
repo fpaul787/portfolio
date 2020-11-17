@@ -335,7 +335,21 @@ img {
 
 }
 
+// blog detail
+#blog-title{
+  width: 66%;
+  margin-right: 45%;
+  
 
+  h5{
+    margin-right: 25%;
+  }
+
+}
+
+.blog-container{
+  width: 66%;
+}
 
 // Import media queries
 @import 'media';

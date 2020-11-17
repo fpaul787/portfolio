@@ -336,20 +336,18 @@ img {
 }
 
 // blog detail
-#blog-title{
-  width: 66%;
-  margin-right: 45%;
+.blog-title{
+  text-align: left;
   
 
   h5{
-    margin-right: 25%;
+    font-size: 35px;
+    line-height: 1.3;
   }
 
 }
 
-.blog-container{
-  width: 66%;
-}
+
 
 // Import media queries
 @import 'media';

@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5{
+  font-weight: bold;
+}
+
 
 h3,
 h4 {
@@ -338,13 +342,6 @@ img {
 // blog detail
 .blog-title{
   text-align: left;
-  
-
-  h5{
-    font-size: 35px;
-    line-height: 1.3;
-  }
-
 }
 
 .blog-container{

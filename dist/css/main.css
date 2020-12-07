@@ -390,6 +390,19 @@ img {
   opacity: 0;
   transition: 0.2s ease;
 }
+.img__single .img__tags__container {
+  background-color: red;
+  position: absolute;
+}
+.img__single .img__tag {
+  background: inherit;
+  font-size: 20px;
+  top: 10px;
+  left: 50px;
+  visibility: none;
+  opacity: 0;
+  transition: 0.2s ease;
+}
 .img__single .btn-main {
   position: absolute;
   top: 50%;
@@ -403,7 +416,7 @@ img {
   transition: 0.5s ease;
   opacity: 0;
 }
-.img__single:hover .img__tags {
+.img__single:hover .img__tag {
   transition: 0.5s ease;
   opacity: 1;
 }

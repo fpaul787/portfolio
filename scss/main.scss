@@ -298,6 +298,22 @@ img {
 
   }
 
+  .img__tags__container{
+    background-color: red;
+    position: absolute;
+  }
+
+  .img__tag{
+    background: inherit;
+    font-size: 20px;
+    top: 10px;
+    left: 50px;
+    visibility: none;
+    opacity: 0;
+    transition: .2s ease;  
+    
+  }
+
   .btn-main {
     position: absolute;
     top: 50%;
@@ -325,7 +341,7 @@ img {
 
   }
 
-  &:hover .img__tags {
+  &:hover .img__tag {
     transition: .5s ease;
 
     opacity: 1;

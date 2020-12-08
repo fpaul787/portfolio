@@ -291,6 +291,10 @@ img {
   border-color: #99afef;
 }
 
+.pdf {
+  width: 100%;
+}
+
 .main-footer {
   margin-top: 10%;
   position: relative;

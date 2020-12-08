@@ -338,6 +338,10 @@ img {
   color: white;
 }
 
+.fa-big {
+  font-size: 90px;
+}
+
 .table {
   display: table;
   margin: 0 auto;
@@ -537,5 +541,20 @@ ul#horizontal-list li {
 
   .time-col-span {
     grid-column: span 12/span 12;
+  }
+
+  ul#horizontal-list {
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 10%;
+  }
+
+  ul#horizontal-list li {
+    display: inline;
+    margin-right: 10%;
+  }
+
+  .fa-big {
+    font-size: 20px;
   }
 }

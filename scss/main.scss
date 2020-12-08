@@ -233,17 +233,19 @@ img {
   color: white;
 }
 
+.fa-big{
+  font-size: 90px;
+}
+
 .table{
   display: table;
   margin: 0 auto;  
 }
 
 ul#horizontal-list{
-  // min-width: 696px;
   list-style: none;
   padding-top: 20px;
   margin-left: 20%;
-  // background-color: red;
 }
 
 ul#horizontal-list li{

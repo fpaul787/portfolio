@@ -288,12 +288,10 @@ img {
 }
 
 .main-footer {
-  margin-top: 5rem;
-  margin-left: 20rem;
-  margin-bottom: 5rem;
-  display: block;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  margin-top: 10%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
   justify-content: center;
 }
 .main-footer a {
@@ -316,6 +314,44 @@ img {
 }
 .main-footer li {
   margin: 1rem;
+}
+
+#footer-nav {
+  margin-left: 10%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.fa {
+  background: #99afef;
+  color: white;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  list-style: none;
+  padding-top: 20px;
+  margin-left: 20%;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin-right: 10%;
 }
 
 .bio-text {

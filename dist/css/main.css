@@ -69,6 +69,10 @@ input[class^=btn-]:hover {
   font-weight: 500;
 }
 
+.font-size-medium {
+  font-size: 25px;
+}
+
 .type-1 {
   font-size: 14px;
   line-height: 1.5;
@@ -350,12 +354,17 @@ img {
 ul#horizontal-list {
   list-style: none;
   padding-top: 20px;
-  margin-left: 20%;
 }
 
 ul#horizontal-list li {
   display: inline;
   margin-right: 10%;
+}
+
+.my-badge {
+  color: #fff;
+  background-color: #99afef;
+  border-radius: 5px;
 }
 
 .bio-text {

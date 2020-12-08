@@ -245,13 +245,21 @@ img {
 ul#horizontal-list{
   list-style: none;
   padding-top: 20px;
-  margin-left: 20%;
 }
 
 ul#horizontal-list li{
   display: inline;
   margin-right: 10%;
 }
+
+.my-badge{
+  color: #fff;
+  background-color: $site-color;
+  border-radius: 5px;
+  
+}
+
+
 
 
 

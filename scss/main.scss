@@ -27,7 +27,11 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
 }
 
@@ -166,7 +170,7 @@ img {
 
 }
 
-.pdf{
+.pdf {
   width: 100%;
 }
 
@@ -214,7 +218,7 @@ img {
   }
 }
 
-#footer-nav{
+#footer-nav {
   margin-left: 10%;
 }
 
@@ -237,30 +241,30 @@ img {
   color: white;
 }
 
-.fa-big{
+.fa-big {
   font-size: 90px;
 }
 
-.table{
+.table {
   display: table;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
-ul#horizontal-list{
+ul#horizontal-list {
   list-style: none;
   padding-top: 20px;
 }
 
-ul#horizontal-list li{
+ul#horizontal-list li {
   display: inline;
   margin-right: 10%;
 }
 
-.my-badge{
+.my-badge {
   color: #fff;
   background-color: $site-color;
   border-radius: 5px;
-  
+
 }
 
 
@@ -270,15 +274,15 @@ ul#horizontal-list li{
 
 // Blog Page
 
-  .bio-text {
-    font-size: 25px;
-    line-height: 1.5;
-    padding-bottom: 1rem;
-  }
-  
-  .link {
-    border-bottom: 5px solid seashell;
-  }
+.bio-text {
+  font-size: 25px;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.link {
+  border-bottom: 5px solid seashell;
+}
 
 // don't know what this means, copied from
 // a website
@@ -358,20 +362,20 @@ ul#horizontal-list li{
 
   }
 
-  .img__tags__container{
+  .img__tags__container {
     background-color: red;
     position: absolute;
   }
 
-  .img__tag{
+  .img__tag {
     background: inherit;
     font-size: 20px;
     top: 10px;
     left: 50px;
     visibility: none;
     opacity: 0;
-    transition: .2s ease;  
-    
+    transition: .2s ease;
+
   }
 
   .btn-main {
@@ -416,12 +420,12 @@ ul#horizontal-list li{
 }
 
 // blog detail
-.blog-title{
+.blog-title {
   text-align: left;
 }
 
-.blog-container{
-  p{
+.blog-container {
+  p {
     font-size: 28px;
   }
 }

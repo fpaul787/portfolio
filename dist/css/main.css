@@ -62,7 +62,7 @@ input[class^=btn-]:hover {
 }
 
 .border-b {
-  border-bottom: 1px solid #99afef;
+  border-bottom: 1px solid #cb625b;
 }
 
 .font-medium {
@@ -168,7 +168,11 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
 }
 
@@ -225,7 +229,7 @@ img {
   height: 10%;
   text-align: center;
   padding-bottom: 1rem;
-  background-color: #99afef;
+  background-color: #cb625b;
   margin-bottom: 3rem;
 }
 
@@ -262,7 +266,7 @@ img {
 }
 
 #container-color {
-  background-color: #99afef;
+  background-color: #cb625b;
 }
 
 #recent-blogs-container {
@@ -342,7 +346,7 @@ img {
 
 /* Set a specific color for each brand */
 .fa {
-  background: #99afef;
+  background: #cb625b;
   color: white;
 }
 
@@ -367,7 +371,7 @@ ul#horizontal-list li {
 
 .my-badge {
   color: #fff;
-  background-color: #99afef;
+  background-color: #cb625b;
   border-radius: 5px;
 }
 
@@ -405,7 +409,7 @@ ul#horizontal-list li {
   border-radius: 9999px;
   cursor: pointer;
   color: #333;
-  background-color: #99afef;
+  background-color: #cb625b;
 }
 
 .tag:hover {
